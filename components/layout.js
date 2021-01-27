@@ -10,6 +10,15 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TPE468YLSV"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-TPE468YLSV');
+          `}} />
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
