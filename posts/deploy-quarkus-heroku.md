@@ -6,7 +6,7 @@ description: How to deploy a Quarkus application on Heroku
 
 I was giving [Quarkus](https://quarkus.io/) a try and so I created a [simple web application](https://github.com/rkaraujo/rka-blog-quarkus) to learn more about it. It's just a website that process some markdown files and serves some HTML pages.
 
-I wanted to do a little test with it using a real server. I remembered I had an account on [Heroku](https://www.heroku.com/), so I thought I should try to deploy this little Quarkus application there.
+I wanted to do a little test hosting it in a real place. I remembered I had an account on [Heroku](https://www.heroku.com/), so I thought I should try to deploy this little Quarkus application there.
 
 To deploy the application on Heroku, I needed to create two extra files: the `system.properties` to choose Java 11 (by default Heroku compiles and runs on Java 8) and the `Procfile` to customize the start command.
 
