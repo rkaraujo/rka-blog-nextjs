@@ -36,3 +36,15 @@ pre {
   overflow-x: auto;
   padding: 1em;
 }
+
+p code {
+  background: #f5f2f0;
+  border-radius: 0.3em;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
+  font-weight: bold;
+  padding: 0.1em;
+  white-space: normal;
+}
