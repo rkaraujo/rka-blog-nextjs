@@ -13,7 +13,7 @@ class AbstractFirstClass(ABC):
     pass
 ```
 
-After having an abstract class, you will want an abstract method. For this you use a decorator called @abstractmethod:
+After having an abstract class, you will want an abstract method. For this you use a decorator called `@abstractmethod`:
 
 ```
 from abc import ABC, abstractmethod
@@ -56,3 +56,5 @@ class ThirdClass(AbstractSecondClass):
     def get_world(self):
       return 'World'
 ```
+
+I hope this clarified how to have a hierarchy of abstract classes in Python.
