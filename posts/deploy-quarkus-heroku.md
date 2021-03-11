@@ -1,7 +1,7 @@
 ---
-title: Deploy a Quarkus application on Heroku
+title: Deploy a Quarkus Java application on Heroku
 date: "2021-02-07T09:30:00"
-description: How to deploy a Quarkus application on Heroku
+description: How to deploy a Quarkus Java application on Heroku
 ---
 
 I was giving [Quarkus](https://quarkus.io/) a try and so I created a [simple web application](https://github.com/rkaraujo/rka-blog-quarkus) to learn more about it. It's just a website that process some markdown files and serves some HTML pages.
