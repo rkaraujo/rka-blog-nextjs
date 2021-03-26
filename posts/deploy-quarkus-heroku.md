@@ -53,4 +53,4 @@ git push heroku main
 
 It will compile and deploy your application on Heroku.
 
-After following these steps I could access the application in my browser using the http url shown by the heroku create command. For this test I deployed the application as a runner jar, I didn't compile the project as a native executable.
+After following these steps I could access the application on my browser using the http url shown by the heroku create command. For this test I deployed the application as a runner jar, I didn't compile the project as a native executable.
