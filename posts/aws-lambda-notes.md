@@ -8,4 +8,4 @@ description: Some notes I wrote about AWS Lambda
 
 - When dealing with async calls (like in Node.js), it's important that at some point of the code there is a command to wait the completion of the async calls. This happens because, in AWS Lambda, after all the sync commands were executed it will terminate the execution without waiting for the end of the async calls.
 
-- AWS Lambda instances start up and shutdown many times. In some cases, there must be considered the start up time of your application, so that it doesn't waste a long time until it is ready to process something. The start up time depends of the programming language and frameworks that are being used.
+- AWS Lambda instances start up and shutdown many times. In some cases, there must be considered the start up time of your application, so that it doesn't waste a long time until it is ready to process something. The start up time depends on the programming language and frameworks that are being used.
