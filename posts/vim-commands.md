@@ -8,7 +8,7 @@ I was getting a little tired learning shortcuts in different editors and operati
 
 Now I have Vim extensions installed in Pycharm and VS Code, so I can execute Vim commands on those editors.
 
-I will list some commands that I can remember right now:
+I will list some commands that I can remember right now. Most of them are intuitive if you associate the letter with the action (for example, p with paste):
 
 - :q - quit Vim
 - :wq - write file, quit Vim
