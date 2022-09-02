@@ -1,0 +1,11 @@
+.bookContainer {
+  display: flex;
+}
+
+.bookCoverContainer {
+  margin-right: 20px;
+}
+
+.bookTitle {
+  margin: 0;
+}
