@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>I'm a senior software engineer with 19+ years of experience developing software. My <a href="https://www.linkedin.com/in/rkaraujo/" target="_blank" rel="nofollow noopener noreferrer">LinkedIn</a>.</p>
         <div>
-          <span className={utilStyles.centered}>[<Link href="/books">Books</Link>]</span>
+          <span className={utilStyles.centered}>[<Link href="/books">Books</Link>] [<Link href="/courses">Courses</Link>]</span>
         </div>
       </section>
 

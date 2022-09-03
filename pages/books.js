@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Book from '../components/book'
 import Layout from '../components/layout'
-import Footer from '../components/footer'
 import { getSortedPostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
 
@@ -14,7 +13,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Books({ allPostsData }) {
+export default function Books() {
   return (
     <Layout>
       <Head>
@@ -23,7 +22,7 @@ export default function Books({ allPostsData }) {
       </Head>
 
       {/* Keep the existing code here */}
-      <section className={utilStyles.headingMd}>
+      <section>
         <h2 className={utilStyles.headingLg}>Books</h2>
         <p>Books I read:</p>
         <ul className={utilStyles.list}>
