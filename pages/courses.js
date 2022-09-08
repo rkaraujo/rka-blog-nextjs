@@ -11,11 +11,17 @@ export default function Courses() {
         <meta name="description" content="Renato's personal blog. These are some courses that I watched." />
       </Head>
 
-      {/* Keep the existing code here */}
       <section>
         <h2 className={utilStyles.headingLg}>Courses</h2>
         <p>Courses I watched:</p>
         <ul>
+          <li>
+            <Course
+              name="Learn Rust by Building Real Applications"
+              url="https://www.udemy.com/course/rust-fundamentals/"
+              platform="Udemy"
+              dateFinished="Sep 2022" />
+          </li>
           <li>
             <Course
               name="Data Warehouse Fundamentals for Beginners"
