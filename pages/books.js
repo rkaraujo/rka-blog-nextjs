@@ -16,6 +16,12 @@ export default function Books() {
         <p>Books I read:</p>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
+            <Book name="Practices of the Python Pro" dateFinished="Sep 2022" />
+          </li>
+          <li className={utilStyles.listItem}>
+            <Book name="Street Coder" dateFinished="Sep 2022" />
+          </li>
+          <li className={utilStyles.listItem}>
             <Book name="Get Programming With Go" dateFinished="Sep 2022" />
           </li>
           <li className={utilStyles.listItem}>
