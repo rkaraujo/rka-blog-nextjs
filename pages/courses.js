@@ -17,6 +17,13 @@ export default function Courses() {
         <ul>
           <li>
             <Course
+              name="Vim Masterclass"
+              url="https://www.udemy.com/course/vim-commands-cheat-sheet/"
+              platform="Udemy"
+              dateFinished="Sep 2022" />
+          </li>
+          <li>
+            <Course
               name="Learn Rust by Building Real Applications"
               url="https://www.udemy.com/course/rust-fundamentals/"
               platform="Udemy"
